@@ -24,7 +24,7 @@ node{
    stage('Slack Notification'){
        sendSlackNotifications(message='Welcome to Jenkins, Slack!',msgColor='good')
    }
-   //test
+   //test123
    def sendSlackNotifications(String message, String msgColor){
        slackSend baseUrl: 'https://hooks.slack.com/services/',
        channel: '#jenkins-pipeline-demo',
