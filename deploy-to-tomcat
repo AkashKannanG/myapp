@@ -16,7 +16,7 @@ node{
    
    stage('Deploy Dev'){
 	   sh 'mv target/myweb*.war target/myweb.war' 
-	   
+	   //test
        sshagent(['tomcat-dev']) {
 			sh "${stopTomcat}"
 			sh "${copyWar}"
