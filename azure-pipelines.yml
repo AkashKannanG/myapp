@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  Hosted Agent
+  ubuntu
 
 steps:
 - task: Maven@3
